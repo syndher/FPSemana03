@@ -5,11 +5,9 @@ stack2 = deque()
 palavras = input()
 palavras = palavras.split(" ")
 for x in palavras:
-    stack1.append(x)
-for i in palavras:
-    stack2.append(stack1.pop())
+    stack1.appendleft(x)
 
-print(stack2)
+print(stack1)
 
 for palavra in palavras:
     if "o" in palavra:
