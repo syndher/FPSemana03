@@ -1,7 +1,6 @@
 from collections import deque
 
 stack1 = deque()
-stack2 = deque()
 palavras = input()
 palavras = palavras.split(" ")
 for x in palavras:
